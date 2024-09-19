@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traverse</title>
+    <link rel="stylesheet" href="anticwStyle.css">
+</head>
+<body>
+    <marquee behavior="scroll" direction="left" scrollamount="10">
+        Traverse Form For Coordinates Computation
+    </marquee>
+    <div class="mytext1"><u>TRAVERSE COMPUTATION FORM</u></div><br><br>
+    <div>
+        <label>Enter the co-ordinates of known station RO: </label><br>
+        <input type="number" id="myknownX1" placeholder="X:"><br>
+        <input type="number" id="myknownY1" placeholder="Y:"><br><br>
+
+        <label>Enter the co-ordinates of known station 1000:</label><br>
+        <input type="number" id="myknownX2" placeholder="X:"><br>
+        <input type="number" id="myknownY2" placeholder="Y:"><br><br>
+        <button id="bearing">Calculate Bearing</button>
+        <p id="bearingresult"></p>
+    </div>
+    <label for="enterangle">Enter the number of observed angles:</label><br>
+    <input type="number" id="myinputnumber1" value="0">
+    
+    <button id="submitbutton1">ENTER</button>
+    <p id="nresult"></p>
+    <div id="inputboxAngles"></div>
+    <script src="anticwScript.js"></script>
+    <footer style="text-align: right; margin-top: auto;">
+        <p>&copy; Saurav Nepal - 36 - GE IV/I - KU</p>
+    </footer>
+</body>
+</html>

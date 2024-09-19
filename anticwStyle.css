@@ -1,0 +1,19 @@
+body{
+    background-color: #e7f9e7;
+    font-family: 'Comic Sans MS', 'Trebuchet MS', sans-serif;
+}
+ .mytext1{
+color:black;
+font-size: 2em;
+text-align: center;
+ }
+
+.latDepBox{
+    width: 40%;}
+
+
+.coordinateBox{
+    width: 40%;}
+
+.correctedLatDepBox{
+    width: 40%;}
